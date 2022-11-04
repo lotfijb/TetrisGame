@@ -183,14 +183,14 @@ window.onload = function () {
     });
   }
   //Getting difficulty value
-  let difficulty;
+  //default difficulty is easy 
+  let difficulty = "4";
   document.querySelector("form").addEventListener("change", function () {
     var inputs = document.querySelectorAll("input");
     for (var i = 0; i < inputs.length; i++) {
       if (inputs[i].checked === true) break;
     }
     difficulty = inputs[i].value;
-    console.log(difficulty);
   });
 
   //Button functions
