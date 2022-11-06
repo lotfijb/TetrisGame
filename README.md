@@ -1,5 +1,6 @@
 # TetrisGame
-[Live demo here](https://lotfijb-tetris-game.netlify.app)
+## [Live demo here](https://lotfijb-tetris-game.netlify.app)
+
 In my learning journey of javascript, I made this basic Tetris game using HTML, CSS and Javascript.
 # Concepts
 Many concepts were involved in this project such as functions, arrays, flexbox, grid etc...
